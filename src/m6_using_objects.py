@@ -113,6 +113,13 @@ def lines():
     window=rg.RoseWindow(500,500)
     line_1=rg.Line(rg.Point(30,60),rg.Point(180,60))
     line_1.attach_to(window)
+    line_2=rg.Line(rg.Point(30,200),rg.Point(180,200))
+    line_2.thickness=10
+    line_2.get_midpoint()
+    line_2.attach_to(window)
+    print("line_2","midpoint",line_2.get_midpoint())
+    print("line_2","midpoint","x",line_2.get_midpoint().x)
+    print("line_2","midpoint","y",line_2.get_midpoint().y)
     window.render()
     window.close_on_mouse_click()
     """
@@ -137,7 +144,7 @@ def lines():
     -- Waits for the user to press the mouse, then closes the window.
     """
     # ------------------------------------------------------------------
-    # TODO: 4. Implement and test this function.
+    # DONE: 4. Implement and test this function.
     # ------------------------------------------------------------------
 
 
