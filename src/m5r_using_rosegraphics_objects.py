@@ -43,11 +43,11 @@ Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
 #                Pen Square
 #
 #          -- Write the names of three METHODs that Circle objects have:
-#                .attach_to()  .clone()  detach_from()
+#                .attach_to()  .clone()  .detach_from()
 #
 #          -- Write the names of three INSTANCE VARIABLEs that Circle
 #             objects have:
-#                fill_color outline_thickness center
+#                .fill_color .outline_thickness .center
 #
 #     f. What does a RoseWindow RENDER method do?
 #            Draws objects attached to window
