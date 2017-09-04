@@ -49,7 +49,7 @@ def two_circles():
 
 
 def circle_and_rectangle():
-    window=rg.RoseWindow(500,500,"2")
+    window = rg.RoseWindow(500, 500, "2")
     circle=rg.Circle(rg.Point(200,100),50)
     circle.fill_color="blue"
     rect=rg.Rectangle(rg.Point(65,80),rg.Point(200,240))
